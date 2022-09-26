@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main ()
+{
+    int age,temp=0 ;;
+    {
+     
+ printf("Enter Your Age Here\n");
+    scanf("%d",&age);
+    
+ if( age >= 18 && age<100 )
+  {
+     printf(" You Are Eligible For Voting\n" );
+  }
+    else if(age<18)
+    {
+  temp = 18 - age; 
+     printf("You Are Not Eligible for vote \n\n" );
+     printf("Wait %d Years For Vote .\n",temp );
+    }
+  }
+   return 0;
+}
